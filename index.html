@@ -11,13 +11,11 @@
     <div class="root">
         <div class="side-users">
             <h3>List users</h3>
+            <div class="add-user">            
+                <input type="text" name="name" id="input-name" placeholder="Enter a new name" />
+                <button type="button" onclick=handleAdd()>Add</button>
+            </div>
             <ul class="list-user"></ul>
-        </div>
-        <div class="add-user">            
-            <label for="input-name">Enter name</label> <br>
-            <input type="text" name="name" id="input-name" />
-            <button type="button" onclick=handleAdd()>Add</button>
-
         </div>
     </div>
 </body>

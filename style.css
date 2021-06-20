@@ -1,6 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaee;
+}
+
 .root {
   width: 100%;
+}
+
+.side-users {
+  width: 500px;
+  margin: 80px auto 0 auto;
+}
+
+.side-users h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #54597e;
+}
+
+/* ul {
+  width: ;
+} */
+ul li {
+  list-style-type: none;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 13px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 10px;
+}
+
+.add-user {
+  margin: 0 auto 15px auto;
+  width: 60%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+}
+.add-user label {
+  margin-bottom: 15px;
+}
+.add-user input {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.add-user button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #802af1;
+  border: none;
+  outline: none;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
