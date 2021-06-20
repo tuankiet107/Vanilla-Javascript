@@ -8,12 +8,12 @@
   width: 100%;
 }
 
-.side-users {
+.side-tasks {
   width: 500px;
   margin: 80px auto 0 auto;
 }
 
-.side-users h3 {
+.side-tasks h3 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 15px;
@@ -23,25 +23,66 @@
 /* ul {
   width: ;
 } */
-ul li {
-  list-style-type: none;
+ul .task-item {
   padding: 10px 15px;
   background-color: #fff;
   border-radius: 13px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.add-user {
+ul .btn {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #fff;
+}
+
+ul .btn-delete {
+  margin-left: auto;
+}
+
+.btn-delete i {
+  color: red;
+  background-color: #fff;
+  font-size: 20px;
+}
+
+.btn-checked i {
+  color: rgb(7, 167, 7);
+  background-color: #fff;
+  font-size: 20px;
+  opacity: 0.2;
+}
+.btn-checked i:hover {
+  color: rgb(7, 167, 7);
+}
+.btn-checked .checked {
+  opacity: 1;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+
+.add-task {
   margin: 0 auto 15px auto;
   width: 60%;
   display: flex;
   justify-content: center;
 }
-.add-user label {
+.add-task label {
   margin-bottom: 15px;
 }
-.add-user input {
+.add-task input {
   width: 80%;
   padding: 10px;
   margin-right: 10px;
@@ -52,7 +93,7 @@ ul li {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.add-user button {
+.add-task button {
   cursor: pointer;
   padding: 10px 15px;
   border-radius: 10px;
